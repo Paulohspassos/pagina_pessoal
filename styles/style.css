@@ -11,3 +11,19 @@ body {
     color: rgb(194, 192, 192);
     font-family: sans-serif;
 }
+
+main {
+    height: 1080px;
+}
+
+#secound {
+    height: 1080px;
+}
+
+article {
+    height: 1080px;
+}
+
+#last {
+    height: 1080px;
+}
