@@ -12,7 +12,7 @@ body {
     font-family: sans-serif;
 }
 
-main {
+#first {
     height: 1080px;
 }
 
@@ -20,7 +20,7 @@ main {
     height: 1080px;
 }
 
-article {
+#phrase {
     height: 1080px;
 }
 
