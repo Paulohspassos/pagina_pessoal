@@ -1,2 +1,2 @@
 # pagina_pessoal
-Pagina pessoal para preticar desenvolvimento front end
+Pagina pessoal para praticar desenvolvimento front end
