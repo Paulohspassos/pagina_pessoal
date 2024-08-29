@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(44, 43, 43);
+    background-color: #0a0a0a;
     color: rgb(194, 192, 192);
     font-family: sans-serif;
 }
@@ -65,7 +65,37 @@ body {
 }
 
 #secound {
+    display: flex;
     height: 1080px;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    margin: 0 20px 0 20px;
+}
+
+#image1 {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#right {
+    margin: 0 20px 0 20px;
+}
+
+.topico {
+    margin: 10px 0 10px 30px;
+}
+
+.desc {
+    margin: 5px 0 5px 30px;
+}
+
+.num {
+    font: bolder 1.5rem arial;
+    color: rgb(107, 105, 105);
+    margin: 0 10px 0 -40px;
 }
 
 #phrase {
