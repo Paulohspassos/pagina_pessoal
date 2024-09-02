@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 601px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #0a0a0a;
+        color: rgb(194, 192, 192);
+        font-family: sans-serif;
+    }
+    
+    #first {
+        padding-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        height: 100vh;
+        background-image: url("../images/code03.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: white;
+        font-size: 7rem;
+        font-weight: 700;
+        line-height: .9em;
+        padding-bottom: 8%;
+    }
+    
+    #first span {
+        position: relative;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2rem;
+        border-right: 2px solid rgb(173, 173, 173);
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: cursor 1s step-end infinite, typing 8s steps(31)infinite;
+    }
+    
+    @keyframes cursor {
+        50% {
+            border-right: transparent;
+        }
+    }
+    
+    @keyframes typing {
+        5% {
+            width: 0;
+        }
+        20% {
+            width: 31ch;
+        }
+    
+        80% {
+            width: 31ch;
+        }
+    
+        95% {
+            width: 0;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+    }
+    
+    #secound {
+        display: flex;
+        height: 100vh;
+        font: bolder 1.2rem sans-serif;
+    }
+    
+    .left {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+    }
+    
+    .image {
+        margin-top: 20px;
+        width: 40vw;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 5% 0 5% 0;
+        width: 50vw;
+    }
+    
+    .topico {
+        font: bold 1em sans-serif;
+        padding-bottom: 2%;
+    }
+    
+    .desc {
+        font: normal 1em sans-serif;
+        padding-bottom: 5%;
+    }
+    
+    .num {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3em;
+        color: rgb(107, 105, 105);
+        margin: 0 10px 0 -40px;
+    }
+    
+    #phrase {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        height: 100vh;
+        margin: 0 10%;
+        justify-content: center;
+    }
+    
+    #assign {
+        font-size: 1.2rem;
+        text-align: end;
+        margin-right: 10%;
+        font-style: italic;
+        color: rgb(167, 167, 167);
+    }
+    
+    #last {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        font: bolder 1.2rem sans-serif;
+    }
+    
+    .titulo {
+        font: 100 1.2em sans-serif;
+        padding: 5px 0;
+    }
+    
+    .info {
+        font: 600 1.5em sans-serif;
+        padding: 5px 0;
+    }
+}
